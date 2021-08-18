@@ -39,7 +39,7 @@ props:
     order: 5
   showSocialBar:
     type: Boolean
-    default: true
+    default: false
     title: Display the Social Links Bar
     order: 6
   showEditSpeedDial:
