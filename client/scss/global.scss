@@ -30,3 +30,8 @@ $display-breakpoints: (
   'lg-and-up': 'only screen and (min-width: #{map-get($grid-breakpoints, 'lg')})',
   'xl-only': 'only screen and (min-width: #{map-get($grid-breakpoints, 'xl')})'
 ) !default;
+
+.contents{
+  max-width: 1080px !important;
+  margin: 0 auto !important;
+}

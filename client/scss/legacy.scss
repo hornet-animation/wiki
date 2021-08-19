@@ -371,6 +371,8 @@ body {
 @import "../themes/default/scss/app.scss";
 
 .contents {
+  max-width: 1080px;
+  margin: 0 auto;
   flex-grow: 1;
   padding: 24px !important;
 }
